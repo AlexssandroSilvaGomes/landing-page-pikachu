@@ -69,6 +69,7 @@ main {
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .description {
@@ -104,4 +105,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--secondary-color);
 }
